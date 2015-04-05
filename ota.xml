@@ -1,0 +1,72 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<ROM>
+<!--  Your ROM Name  -->
+<RomName>RR_LP</RomName>
+<VersionName>v5.4.0</VersionName>
+<!--
+ Your ROM version. MUST be incrementally larger than previous versions 
+-->
+<!--
+ Do NOT use letters in your version number. Integers only 
+-->
+<!--  Previous version will be read from the build.prop  -->
+<VersionNumber type="integer">20150405</VersionNumber>
+<!--  Linking to your files  -->
+<!--
+ <DirectUrl><![CDATA[http://www.example.com?file=file.zip?somethingelse&anotherthing]]></DirectUrl> 
+-->
+<!--
+ Use the above format if your URL has special characters in then, like an (&) ampersand 
+-->
+<!--
+ Enter <DirectUrl nil="true /> or <HttpUrl nil="true /> to indicate you won't be using a type of URL 
+-->
+<!--  HTTP link will open a web page  -->
+<!--  Direct Link overrides HTTP link  -->
+<DirectUrl>
+http://dl.rutvikrajagopal.com/i9082/rr/files/cm-Resurrection_Remix_LP_v5.4.0-20150405-i9082.zip
+</DirectUrl>
+<HttpUrl nil="true"/>
+<!--  What version are you issuing?  -->
+<Android>5.1</Android>
+<!--
+ Providing File Checking for direct downloads. You SHOULD offer this for your users whether using HTTP or Direct 
+-->
+<!--
+ OPTIONAL: Enter <CheckMD5 nil="true" /> offer MD5 checking 
+-->
+<CheckMD5>7fdb78ce425e0fdcbb4b49ed70253dfa</CheckMD5>
+<!--  The filesize of your ROM  -->
+<!--
+ Please enter this in BYTES only. Otherwise an incorrect value will be shown 
+-->
+<FileSize type="integer">266867881</FileSize>
+<!--
+ Developer or Team name. You can put anything here, even a couple of names 
+-->
+<!--
+ OPTIONAL: Enter <Developer nil="true" /> to hide this 
+-->
+<Developer>Rutvik Rajagopal (RVR)</Developer>
+<!--
+ Your ROM or Developer Website. Can be a personal site or your XDA/forum thread 
+-->
+<!--
+ OPTIONAL: Enter <Website nil="true" /> to hide this 
+-->
+<WebsiteURL>http://rutvikrajagopal.com</WebsiteURL>
+<!--  Your Donate URL  -->
+<!--
+ OPTIONAL: Enter <DonateURL nil="true" /> to hide this 
+-->
+<DonateURL nil="true"/>
+<!--
+ Put the changelog here... Use Markdown to format it 
+-->
+<!--
+ Again, surround special characters with the CDATA tags or your XML will NOT parse 
+-->
+<Changelog>
+### Changelog 20150406 * Upstream Merge * BUmp to v5.4.0 * Merged with android 5.1_r3 *Fix GPS and updated with Pawit's latest Patches * If you are on v5.4 (morning build) .. You can download the delta from http://dl.rutvikrajagopal.com/i9082/rr/ NOTE: NO DELTA ZIP THIS TIME ,, SINCE IT's THE NEXT ANDROID VERSION AND FC's CAN OCCUR :)
+</Changelog>
+</ROM>
